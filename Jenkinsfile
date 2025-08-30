@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/yewfuli41/SCCprac9.git'
+                git branch: 'master', url: 'https://github.com/nawaf83/p2.git'
             }
         }
         stage('Build') {
